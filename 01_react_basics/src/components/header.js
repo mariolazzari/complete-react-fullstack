@@ -3,12 +3,10 @@ import "../css/styles.css";
 
 class Header extends Component {
   state = {
-    title: "The keywords are:",
     keywords: ""
   };
 
   inputChangeHandler = event => {
-    //console.log("changed", event.target.value);
     this.setState({ keywords: event.target.value });
   };
 
@@ -17,7 +15,6 @@ class Header extends Component {
       <header>
         <div className="logo">Logo</div>
         <input type="text" onChange={this.inputChangeHandler} />
-        <div>{this.state.title}</div>
       </header>
     );
   }
