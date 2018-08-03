@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+}
+
+header {
+  background: "#03a9f4";
+}
+.logo {
+  color: #fff;
+  font-family: "Anton";
+  text-align: "Center";
+}
